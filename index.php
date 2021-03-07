@@ -1,2 +1,2 @@
 <?php
-require('./authentication/login.php');
+include_once("index.html");

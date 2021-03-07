@@ -9,7 +9,7 @@ if (isset($_POST['signup'])) {
 
     if (isset($_COOKIE[$email])) {
         echo 'User Already exists';
-        echo "<a href='signup.php'>Pick diffeent email</a>";
+        echo "<a href='signup.php'>Pick different email</a>";
         return 1;
     }
 
@@ -18,6 +18,5 @@ if (isset($_POST['signup'])) {
     setcookie($email, $email, time() + 60 * 60 * 7);
     setcookie($pass . $email, $pass, time() + 60 * 60 * 7);
     setcookie('email', $email, time() + 60 * 60 * 7);
-    setcookie($name, $name, time() + 60 * 60 * 7);
     header("location: welcome.php");
 }

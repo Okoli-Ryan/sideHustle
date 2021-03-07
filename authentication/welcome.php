@@ -12,7 +12,7 @@ session_start();
 
 <body>
     <?php
-    echo "welcome " . $_COOKIE['email'];
+    echo "welcome"
     ?>
     <h3> You've been logged in</h3>
     <a href="logout.php">Logout</a>

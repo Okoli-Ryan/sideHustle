@@ -38,6 +38,8 @@
     </form>
 </body> -->
 
-<h2>Hello</h2>
+<?php
+echo "<h2>hello</h2>";
+?>
 
 </html>

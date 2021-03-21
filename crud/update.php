@@ -1,6 +1,6 @@
 <?php
 
-require_once "databaseLink.php";
+require_once "config.php";
 
 if (isset($_POST['update']) and $_POST['update'] !== "") {
     $sql = "UPDATE texts SET content=? WHERE id=?";

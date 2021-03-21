@@ -1,5 +1,5 @@
 <?php
-require_once "databaseLink.php";
+require_once "config.php";
 
 $sql = "DELETE FROM texts WHERE id = {$_GET['q_id']}";
 

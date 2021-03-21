@@ -1,6 +1,6 @@
 <?php
 
-require_once "databaseLink.php";
+require_once "config.php";
 
 if (isset($_POST['add-input']) and $_POST['add-input'] !== "") {
     $sql = "INSERT INTO texts (content) VALUES (?)";

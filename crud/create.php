@@ -9,7 +9,7 @@ if (isset($_POST['add-input']) and $_POST['add-input'] !== "") {
         $stmt->bind_param("s", $_POST['add-input']);
 
         if ($stmt->execute()) {
-            header("location: read.php");
+            header("location: index.php");
             exit();
         } else {
             echo "error";

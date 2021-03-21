@@ -8,7 +8,7 @@
     <title>Crud App</title>
     <link rel="stylesheet" href="index.css">
 </head>
-
+<!-- 
 <body>
     <div class="read-elements">
         <?php
@@ -36,6 +36,8 @@
         <input type="text" name="add-input" class="add_input" placeholder="Add text">
         <button class="add_button">add</button>
     </form>
-</body>
+</body> -->
+
+<h2>Hello</h2>
 
 </html>

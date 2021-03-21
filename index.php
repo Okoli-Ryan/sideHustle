@@ -1,2 +1,2 @@
 <?php
-header("location: crud/index.php");
+header("location: crud/index.html");

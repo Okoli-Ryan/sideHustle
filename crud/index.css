@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+.inline{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.element{
+    margin: 1rem;
+    border: 1px solid black;
+    width: max-content;
+    padding: 1rem;
+}
+
+.content{
+    margin-right: 1rem;
+}
+
+.update_button, .delete_button, .add_button{
+    padding: .3rem .5rem;
+    background: none;
+    color: white;
+}
+
+.delete_button{
+    background-color: red;
+    margin-right: 1rem;
+}
+
+.update_button{
+    background-color: yellow;
+    margin-left: 1rem;
+    color: black
+}
+
+.add_button{
+    background-color: green;
+    margin-left: 1rem;
+}
+
+.add_input{
+    margin-left: 1rem;
+}

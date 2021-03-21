@@ -7,7 +7,7 @@ if ($stmt = $mysqli->prepare($sql)) {
 
     if ($stmt->execute()) {
         // Records deleted successfully. Redirect to landing page
-        header("location: index.php");
+        header("location: read.php");
         exit();
     } else {
         echo "error deleting";

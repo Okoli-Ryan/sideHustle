@@ -9,7 +9,7 @@ if (isset($_POST['update']) and $_POST['update'] !== "") {
         $stmt->bind_param("si", $_POST['update'], $_GET['q_id']);
 
         if ($stmt->execute()) {
-            header("location: index.php");
+            header("location: read.php");
             exit();
         } else {
             echo "error";
